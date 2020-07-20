@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <div class="">
+        <div class="flex-container-col card">
+            <div class="display">
+                <h1 id="displayNumber">0</h1>
+            </div>
+            <div class="flex-row">
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box negative">+/-</div>
+            </div>
+            <div class="flex-row">
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box operator">-</div>
+            </div>
+            <div class="flex-row">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box operator">+</div>
+            </div>
+            <div class="flex-row">
+                <div class="box clear">CE</div>
+                <div class="box">0</div>
+                <div class="box equals double">=</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="history card">
+        <h2>Riwayat Perhitungan</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Angka Pertama</th>
+                    <th>Operator</th>
+                    <th>Angka Kedua</th>
+                    <th>Hasil</th>
+                </tr>
+            </thead>
+            <tbody id="historyList"></tbody>
+        </table>
+    </div>
+<script src="assets/javascript/storage.js"></script>
+<script src="assets/javascript/kalkulator.js"></script>
+
+</body>
+</html>
