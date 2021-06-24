@@ -1,2 +1,3 @@
 # kalkulator-javascript
-Tugas Pribadi DTS
+
+Check it : https://arhammahazra.github.io/kalkulator/
